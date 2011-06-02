@@ -1,7 +1,15 @@
-%Für die letztendlich Abgabe bitte das folgende auskommentieren, und korrekte
-%Parameter Ihres Harris Detektors übergeben
-%Image = imread('Bilder/Teddy.png');
-%IGray = rgb_to_gray(Image);
+% Mike Schreiber, tum.mike@googlemail.com, Matrikelnummer: 3021909
+% Philipp Tiefenbacher, philtief@googlemail.com, Matrikelnummer: 
+% Clemens Horch, ch@tum.de, Matrikelnummer:
+% Kinan Mahdi, kinan.mahdi@tum.de, Matrikelnummer: 
+
+%Fï¿½r die letztendlich Abgabe bitte das folgende auskommentieren, und korrekte
+%Parameter Ihres Harris Detektors ï¿½bergeben
+Image = imread('Bilder/haus.png');
+IGray = rgb_to_gray(Image);
+[Fx,Fy]=sobel_xy(IGray);
 %tic
-%Merkmale = harris_detektor(IGray . . .);
+Merkmale = harris_detektor(IGray,7,0.04,1000,1);
 %toc
+
+%Merkmale = fail(IGray,7,0.06,500000000000,1);
