@@ -1,10 +1,10 @@
 % Mike Schreiber, tum.mike@googlemail.com, Matrikelnummer: 3021909
 % Philipp Tiefenbacher, philtief@googlemail.com, Matrikelnummer: 
-% Clemens Horch, ch@tum.de, Matrikelnummer:
+% Clemens Horch, ch@tum.de, Matrikelnummer: 3013692
 % Kinan Mahdi, kinan.mahdi@tum.de, Matrikelnummer: 
 
-%Fï¿½r die letztendlich Abgabe bitte das folgende auskommentieren, und korrekte
-%Parameter Ihres Harris Detektors ï¿½bergeben
+%Für die letztendlich Abgabe bitte das folgende auskommentieren, und korrekte
+%Parameter Ihres Harris Detektors übergeben
 Image = imread('Bilder/haus.png');
 IGray = rgb_to_gray(Image);
 [Fx,Fy]=sobel_xy(IGray);

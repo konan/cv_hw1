@@ -1,6 +1,6 @@
 % Mike Schreiber, tum.mike@googlemail.com, Matrikelnummer: 3021909
 % Philipp Tiefenbacher, philtief@googlemail.com, Matrikelnummer: 
-% Clemens Horch, ch@tum.de, Matrikelnummer:
+% Clemens Horch, ch@tum.de, Matrikelnummer: 3013692
 % Kinan Mahdi, kinan.mahdi@tum.de, Matrikelnummer: 
 
 %SOBEL_XY
